@@ -7,7 +7,7 @@ const prompt = require('prompt-sync')();
 (async() => {
     await characterAI.authenticateAsGuest();
 
-    const characterId = "lryij6Pg95hRvpU7y4SLrRzwWvVyCugTF4lpciiJyY8" // Discord moderator
+    const characterId = "lryij6Pg95hRvpU7y4SLrRzwWvVyCugTF4lpciiJyY8" // Orchid
 
     const chat = await characterAI.createOrContinueChat(characterId);
     while (true) {
